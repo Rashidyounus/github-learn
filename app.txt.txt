@@ -1,1 +1,15 @@
 println("Hello")
+
+git config --global user.name "My Name"
+git config --global user.email "123Rashidmahmood@gmail.com"
+
+
+echo "# github-learn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rashidyounus/github-learn.git
+git push -u origin main
+
+Again(Add,commit,push)
