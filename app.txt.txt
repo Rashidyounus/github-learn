@@ -14,4 +14,9 @@ git push -u origin main
 
 Again(Add,commit,push)
 
+----Development Branch 
 $ git checkout -b develop
+$ git push -u origin develop
+
+
+Pull Request means Development branch to push code into main Branch
